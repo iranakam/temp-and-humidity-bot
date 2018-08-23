@@ -1,0 +1,25 @@
+Rails:
+  Enabled: true
+
+AllCops:
+  TargetRubyVersion: 2.4
+  Exclude:
+    - vendor/bundle/**/*
+    - db/**/*
+    - config/**/*
+    - Gemfile
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+BracesAroundHashParameters:
+    EnforcedStyle: no_braces
